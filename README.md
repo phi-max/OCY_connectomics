@@ -1,5 +1,5 @@
 # Osteocyte Connectomics
-Matlab code to reproduce all data plots in the paper __"The small world of osteocytes: connectomics of the osteocyte lacuno-canalicular network"__ from the raw confocal image data.
+This is the _MATLAB_ code used to produce all data plots in the paper __"The small world of osteocytes: connectomics of the osteocyte lacuno-canalicular network"__ from the raw confocal image data.
 
 ## Dependencies
 The following external dependencies need to be in your MATLAB path:
@@ -12,13 +12,13 @@ The following external dependencies need to be in your MATLAB path:
 The data for the paper are available on Zenodo (coming soon).
 
 ## How to run
-Two scripts need to be called to generate the plots. All other .m files and external dependencies (see above) must be on your MATLAB path. The data should be located in the current working directory.
+Two scripts need to be called to generate the plots. All other `.m` files and external dependencies (see above) must be on your _MATLAB_ path. The data should be located in the current working directory.
 
 1. `OCY_analyze_all.m`: main script to analyze data, using parallel pool if available.
 2. `OCY_generate_figures.m`: collects analyzed data from subfolders and generates the plots.
 
 ## Data structures
-Data structures are saved as .mat files of the same name as the variable in each folder.
+Data structures are saved as `.mat` files of the same name as the variable in each folder.
 
 - **bin_thr**: Binary image volume after smoothing and thresholding.
 - **bin**: Binary image volume after morphological filtering.
