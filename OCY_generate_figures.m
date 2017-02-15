@@ -194,16 +194,6 @@ xlabel('\# Nodes','interpreter','latex');
 ylabel('\# Edges','interpreter','latex');
 print -dsvg F_03_ain
 
-% mean degree without endpoints and cells
-figure('Position',[700,400,380 310]);
-OCY_plot_x([d.mean_deg],d);
-axis([-0.6 3.55 0 5]);
-set(gca,'XTick',[0 1 2 3]);
-set(gca,'XTickLabel',{'M1','M2','S1','S2'});
-ylabel('<k>');
-set(gcf,'PaperPositionMode','auto')
-print -dsvg F_03_b
-
 % cumulative edge length distribution
 figure('Color',[1 1 1],'position',[100 100 640 550]);
 heb = (0.5:0.5:20);
