@@ -9,7 +9,8 @@ The following external dependencies need to be in your MATLAB path:
 - _MatlabBGL_ by David Gleich (https://github.com/dgleich/matlab-bgl/)
 
 ## Raw data
-The data for the paper are available on Zenodo (coming soon).
+The data for the paper are available on Zenodo (https://zenodo.org/record/291852).
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.291852.svg)](https://doi.org/10.5281/zenodo.291852)
 
 ## How to run
 Two scripts need to be called to generate the plots. All other `.m` files and external dependencies (see above) must be on your _MATLAB_ path. The data should be located in the current working directory.
