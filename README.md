@@ -1,5 +1,5 @@
 # Osteocyte Connectomics
-This is the _MATLAB_ code used to produce all data plots in the paper __"The small world of osteocytes: connectomics of the osteocyte lacuno-canalicular network"__ (https://arxiv.org/abs/1702.04117) from the raw confocal image data.
+This is the _MATLAB_ code used to produce all data plots in the paper __"The small world of osteocytes: connectomics of the osteocyte lacuno-canalicular network"__ (New J. Phys. 19 073019, https://doi.org/10.1088/1367-2630/aa764b) from the raw confocal image data.
 
 ## Dependencies
 The following external dependencies need to be in your MATLAB path:
